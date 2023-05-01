@@ -1,0 +1,23 @@
+:root {
+    --bg-dark: #313338;
+    --bg-dark-highlight: #21222c;
+    --accent: #5865f2;
+    --accent-hover: #454fbf;
+    --text-color-bg-dark: #d4d4d4;
+  }
+  
+  ion-icon {
+    font-size: 1.25em;
+  }
+  
+  #container {
+    display: grid;
+    gap: 20px;
+  }
+  
+  .box {
+    background: var(--bg-dark);
+    padding: 10px;
+    border-radius: 10px;
+  }
+  
